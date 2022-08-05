@@ -1,16 +1,20 @@
+//This function changes the value of the slider
 function updateRate() {
     var rateval = document.getElementById("rate").value;
     document.getElementById("rate_val").innerText = rateval + "%";
 }
 
+//This function is for form validation.
+//It supposed to pop up an alert and return focus back to the input once alert is closed
 function validateForm() {
     var principleValue = document.getElementById("principal").value;
     if (principleValue < 1) {
         alert("Enter a positive number");
-        return document.principal.focus();
+        return document.principal.focus();//I think this line is incorrect as I cannot get the app to focus on the principal after alert closed
     }
 }
 
+//This function computes the input
 function compute() {
     var principal = document.getElementById("principal").value;
     var rate = document.getElementById("rate").value;
