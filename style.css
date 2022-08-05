@@ -1,0 +1,31 @@
+body {
+    background-color: black;
+    font-family: Arial;
+    color: white;
+}
+
+h1 {
+    color: grey;
+    font-family: verdana;
+    text-align: center;
+}
+
+.maindiv {
+    background-color: white;
+    color: black;
+    width: 450px;
+    padding: 2% 5%;
+    border-radius: 25px;
+    /*To center DIV in the middle of the page*/
+    margin: 0 auto;
+}
+
+.title {
+    width: 35%;
+    float: left;
+    display: inline;
+}
+
+footer {
+    text-align: center;
+}
